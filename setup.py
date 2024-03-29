@@ -13,7 +13,7 @@ setup(name='vsphere-automation-sdk',
       packages=[],
       install_requires=[
         'lxml >= 4.3.0',
-        'pyVmomi >=6.7',
+        'pyVmomi',
         'vapi-runtime @ file://localhost/{}/lib/vapi-runtime/vapi_runtime-2.44.0-py2.py3-none-any.whl'.format(os.getcwd()),
         'vcenter-bindings @ file://localhost/{}/lib/vcenter-bindings/vcenter_bindings-4.2.0-py2.py3-none-any.whl'.format(os.getcwd()),
         'vapi-common-client @ file://localhost/{}/lib/vapi-common-client/vapi_common_client-2.44.0-py2.py3-none-any.whl'.format(os.getcwd()),
